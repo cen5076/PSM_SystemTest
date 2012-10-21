@@ -33,8 +33,7 @@ public class PSM004_Schedule_Cancel extends PSM004_Schedule_CancelHelper
 		
 		// Window: java.exe: PSM Login
 		psmLoginwindow().click(atPoint(137,80));
-		psmLoginwindow().inputChars("c");
-		psmLoginwindow().inputKeys("c{BKSP}en5076");
+		psmLoginwindow().inputChars("cen5076");
 		psmLoginwindow().click(atPoint(164,109));
 		psmLoginwindow().inputChars("cen5076");
 		psmLoginwindow().click(atPoint(138,156));

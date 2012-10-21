@@ -19,15 +19,15 @@ import com.rational.test.ft.script.*;
 import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
- * Script Name   : <b>PSM004_Schedule</b><br>
- * Generated     : <b>2012/10/08 7:13:28 PM</b><br>
+ * Script Name   : <b>PSM004_Schedule_Sunny_Rainy</b><br>
+ * Generated     : <b>2012/10/20 8:55:01 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  October 08, 2012
- * @author David
+ * @since  October 20, 2012
+ * @author Chakaitos
  */
-public abstract class PSM004_ScheduleHelper extends RationalTestScript
+public abstract class PSM004_Schedule_Sunny_RainyHelper extends RationalTestScript
 {
 	/**
 	 * PSMLogin: with default state.
@@ -58,7 +58,7 @@ public abstract class PSM004_ScheduleHelper extends RationalTestScript
 	 * PSMMainMenu: with default state.
 	 *		.text : PSM Main Menu
 	 * 		.class : SunAwtFrame
-	 * 		.processName : java.exe
+	 * 		.processName : javaw.exe
 	 * 		.name : PSM Main Menu
 	 */
 	protected TopLevelSubitemTestObject psmMainMenuwindow() 
@@ -70,13 +70,38 @@ public abstract class PSM004_ScheduleHelper extends RationalTestScript
 	 * PSMMainMenu: with specific test context and state.
 	 *		.text : PSM Main Menu
 	 * 		.class : SunAwtFrame
-	 * 		.processName : java.exe
+	 * 		.processName : javaw.exe
 	 * 		.name : PSM Main Menu
 	 */
 	protected TopLevelSubitemTestObject psmMainMenuwindow(TestObject anchor, long flags) 
 	{
 		return new TopLevelSubitemTestObject(
                         getMappedTestObject("psmMainMenuwindow"), anchor, flags);
+	}
+	
+	/**
+	 * PSMMainMenu: with default state.
+	 *		.text : PSM Main Menu
+	 * 		.class : SunAwtFrame
+	 * 		.processName : java.exe
+	 * 		.name : PSM Main Menu
+	 */
+	protected TopLevelSubitemTestObject psmMainMenuwindow2() 
+	{
+		return new TopLevelSubitemTestObject(
+                        getMappedTestObject("psmMainMenuwindow2"));
+	}
+	/**
+	 * PSMMainMenu: with specific test context and state.
+	 *		.text : PSM Main Menu
+	 * 		.class : SunAwtFrame
+	 * 		.processName : java.exe
+	 * 		.name : PSM Main Menu
+	 */
+	protected TopLevelSubitemTestObject psmMainMenuwindow2(TestObject anchor, long flags) 
+	{
+		return new TopLevelSubitemTestObject(
+                        getMappedTestObject("psmMainMenuwindow2"), anchor, flags);
 	}
 	
 	/**
@@ -104,11 +129,36 @@ public abstract class PSM004_ScheduleHelper extends RationalTestScript
                         getMappedTestObject("scheduleSetupwindow"), anchor, flags);
 	}
 	
+	/**
+	 * SystemMessage: with default state.
+	 *		.text : System Message
+	 * 		.class : SunAwtFrame
+	 * 		.processName : java.exe
+	 * 		.name : System Message
+	 */
+	protected TopLevelSubitemTestObject systemMessagewindow() 
+	{
+		return new TopLevelSubitemTestObject(
+                        getMappedTestObject("systemMessagewindow"));
+	}
+	/**
+	 * SystemMessage: with specific test context and state.
+	 *		.text : System Message
+	 * 		.class : SunAwtFrame
+	 * 		.processName : java.exe
+	 * 		.name : System Message
+	 */
+	protected TopLevelSubitemTestObject systemMessagewindow(TestObject anchor, long flags) 
+	{
+		return new TopLevelSubitemTestObject(
+                        getMappedTestObject("systemMessagewindow"), anchor, flags);
+	}
+	
 	
 
-	protected PSM004_ScheduleHelper()
+	protected PSM004_Schedule_Sunny_RainyHelper()
 	{
-		setScriptName("PSM004_Schedule");
+		setScriptName("PSM004_Schedule_Sunny_Rainy");
 	}
 	
 }

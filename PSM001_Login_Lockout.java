@@ -33,10 +33,10 @@ public class PSM001_Login_Lockout extends PSM001_Login_LockoutHelper
 		
 		//First BadPassword
 		// Window: java.exe: PSM Login
-		psmLoginwindow().inputChars(dpString("1"));
+		psmLoginwindow().inputChars(dpString("User Name"));
 		psmLoginwindow().click(atPoint(141,115));
 		psmLoginwindow().click(atPoint(144,114));
-		psmLoginwindow().inputChars(dpString("2"));
+		psmLoginwindow().inputChars(dpString("Password"));
 		psmLoginwindow().click(atPoint(144,159));
 		
 		// Window: java.exe: System Message
@@ -47,10 +47,10 @@ public class PSM001_Login_Lockout extends PSM001_Login_LockoutHelper
 		psmLoginwindow().waitForExistence(10.0, 2.0);
 		
 		this.dpNext();
-		psmLoginwindow().inputChars(dpString("1"));
+		psmLoginwindow().inputChars(dpString("User Name"));
 		psmLoginwindow().click(atPoint(141,115));
 		psmLoginwindow().click(atPoint(144,114));
-		psmLoginwindow().inputChars(dpString("2"));
+		psmLoginwindow().inputChars(dpString("Password"));
 		psmLoginwindow().click(atPoint(144,159));
 		
 		// Window: java.exe: System Message
@@ -61,10 +61,10 @@ public class PSM001_Login_Lockout extends PSM001_Login_LockoutHelper
 		psmLoginwindow().waitForExistence(10.0, 2.0);
 		
 		this.dpNext();
-		psmLoginwindow().inputChars(dpString("1"));
+		psmLoginwindow().inputChars(dpString("User Name"));
 		psmLoginwindow().click(atPoint(141,115));
 		psmLoginwindow().click(atPoint(144,114));
-		psmLoginwindow().inputChars(dpString("2"));
+		psmLoginwindow().inputChars(dpString("Password"));
 		psmLoginwindow().click(atPoint(144,159));
 		
 		// Window: java.exe: System Message

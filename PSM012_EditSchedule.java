@@ -41,7 +41,7 @@ public class PSM012_EditSchedule extends PSM012_EditScheduleHelper
 		psmMainMenuwindow().click(atPoint(347,94));
 		
 		// Window: java.exe: Please Choose
-		pleaseChoosewindow().waitForExistence(10.0, 2.0);
+		//pleaseChoosewindow().waitForExistence(10.0, 2.0);
 		pleaseChoosewindow().click(atPoint(153,164));
 		
 		// Window: java.exe: Edit Schedule
