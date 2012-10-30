@@ -29,7 +29,7 @@ public class PSM001_Login_Logout_Sunny extends PSM001_Login_Logout_SunnyHelper
 	 */
 	public void testMain(Object[] args) 
 	{
-		ProcessTestObject psm = startApp("PSM");
+		ProcessTestObject psm = startApp("psm");
 		
 		// Window: java.exe: PSM Login
 		psmLoginwindow().inputChars(dpString("User Name"));
